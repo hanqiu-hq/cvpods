@@ -81,7 +81,7 @@ def check_subdivision_config(cfg):
 def adjust_config(cfg):
     base_world_size = int(cfg.SOLVER.IMS_PER_BATCH / cfg.SOLVER.IMS_PER_DEVICE)
     # Batchsize, learning rate and max_iter in original config is used for 8 GPUs
-    assert base_world_size == 8, "IMS_PER_BATCH/DEVICE in config file is used for 8 GPUs"
+    # assert base_world_size == 8, "IMS_PER_BATCH/DEVICE in config file is used for 8 GPUs"
     world_size = comm.get_world_size()
     machines_ratio = world_size / base_world_size
 
