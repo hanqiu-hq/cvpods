@@ -40,7 +40,7 @@ _config_dict = dict(
         EVAL_PEROID=10000,
     ),
     OUTPUT_DIR=osp.join(
-        '/data/Outputs/model_logs/cvpods_playground',
+        '/mnt/lustre/qiuhan.vendor/model_logs/cvpods_outputs',
         osp.split(osp.realpath(__file__))[0].split("playground/")[-1]),
 )
 
