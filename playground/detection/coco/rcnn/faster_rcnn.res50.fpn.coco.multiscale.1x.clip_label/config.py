@@ -9,7 +9,7 @@ _config_dict = dict(
         RESNETS=dict(DEPTH=50),
     ),
     DATASETS=dict(
-        TRAIN=("clip_coco_2017_train",),
+        TRAIN=("coco_clip_2017_train",),
         TEST=("coco_2017_val",),
     ),
     SOLVER=dict(
