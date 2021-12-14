@@ -46,6 +46,8 @@ _PREDEFINED_SPLITS_COCO["coco"] = {
     ),
     "coco_2017_train": ("coco/train2017",
                         "coco/annotations/instances_train2017.json"),
+    "clip_coco_2017_train": ("coco/train2017",
+                             "coco/annotations/clip_instances_train2017.json"),
     "coco_2017_val": ("coco/val2017",
                       "coco/annotations/instances_val2017.json"),
     "coco_2017_test": ("coco/test2017",
